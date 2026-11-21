@@ -1,0 +1,36 @@
+flow_id,from_node,to_node,business,material,flow_type,transport_mode,edge_status,source_ids,evidence_ids,qualification
+L01,F01,F03,Aluminium India,Bauxite,forward_internal,Covered conveyor,reported,S09,E005,18.5 km source description
+L02,F02,F04,Aluminium India,Bauxite,forward_internal,Not verified,reported,S10,E006,No tonnage split
+L03,F02,F06,Aluminium India,Bauxite,forward_internal,Not verified,reported,S10,E006,No tonnage split
+L04,F03,F09,Aluminium India,Alumina,forward_internal,Dedicated BTAP rail historically,reported_current_link_historical_mode,S13;S51,E007;E010,Current dispatch pattern unknown
+L05,F04,F09,Aluminium India,Alumina,forward_internal,Not verified,reported,S13,E007,Do not infer exclusive feed
+L06,F03,F10,Aluminium India,Alumina,forward_internal,Dedicated BTAP rail historically,historical,S51,E010,Reconfirm current lane
+L07,F03,F11,Aluminium India,Alumina,forward_internal,Not verified,reported,S15,E008,Current lane quantity unknown
+L08,F04,F11,Aluminium India,Alumina,forward_internal,Not verified,reported,S15,E008,Current lane quantity unknown
+L09,F11,F12,Aluminium India,Primary aluminium,forward_internal,Not verified,reported,S15,E009,Physical product form may vary
+L10,F11,F13,Aluminium India,Primary aluminium,forward_internal,Not verified,reported,S15,E009,Not all Belur inputs assigned
+L11,F11,F14,Aluminium India,Primary aluminium,forward_internal,Not verified,reported,S15,E009,Not exclusive link
+L12,F11,F15,Aluminium India,Primary aluminium,forward_internal,Not verified,reported,S15,E009,Not exclusive link
+L13,F11,F16,Aluminium India,Primary aluminium,forward_internal,Not verified,reported,S15,E009,Not exclusive link
+L14,F08,F07,Aluminium India,Electricity,energy,Electrical network,reported,S12;S50,E011,Not material freight
+L15,F06,F07,Aluminium India,Alumina,forward_internal,Within integrated complex,process_link,S12,E011,Not proof all refinery output consumed onsite
+L16,F20,F12,Aluminium India,RI/HRC two-way corridor,interplant,EV road initiative,reported_bidirectional,S03,E038,Row denotes corridor; directional material split unresolved
+L17,F20 FRP,F20 foil,Aluminium India,Rolled feedstock,forward_internal,Co-located process link,reported,S37,E016,Exact transfer arrangement not disclosed
+L18,F19,Mahindra,Aluminium India,Battery enclosures,customer_delivery,Not verified,reported,S27,E015,BE 6 and XEV 9e programme
+L19,Hindalco alumina refineries,UltraTech plants,Aluminium India,Bauxite residue,byproduct_outbound,Not verified,historical_MoU,S28,E018,Not a metal recycling loop
+L20,External copper sources,F22,Copper India,Imported concentrate/copper feed,procurement,Marine gateway,network_synthesis,S17;S19,E019;E021,No individual voyage inferred
+L21,F22,F21,Copper India,Copper feed,inbound,Port-to-complex handling,process_link,S17,E019,Detailed handling equipment not verified
+L22,Hindustan Copper,Hindalco copper business,Copper India,Copper concentrate,procurement,Not verified,historical_MoU,S20,E022,No implied current contracted volume
+L23,F21 smelter,F21 refinery,Copper India,Copper anodes,forward_internal,Internal handling,historical_process_current_products,S58;S17,E023,General plant process not a measured shipment
+L24,F21 refinery,Rod production,Copper India,Cathodes,forward_internal,Not verified,process_link,S24;S58,E023;E024,Allocation between rod plants unknown
+L25,F21 refinery,Precious-metal recovery,Copper India,Anode slime,byproduct_internal,Internal handling,historical_process,S58,E023,Current recovery products corroborated S16
+L26,F21,Acid customers,Copper India,Sulphuric acid,byproduct_outbound,Not verified,reported_product_market,S05,E033,Named buyers and logistics undisclosed
+L27,Scrap/e-waste collection,F25,Copper India,Copper-bearing secondary feed,reverse,Not verified,planned,S38,E027,Feedstock yields and actual collections unknown
+L28,Rio Tinto,Novelis network,Novelis,Prime metal and sheet ingot,procurement,Not verified,reported,S29,E042,No lane allocation inferred
+L29,Novelis network,JLR,Novelis,Automotive sheet,customer_delivery,Dedicated rail in case,historical_case,S30,E043,Country corridor Germany-UK in case
+L30,JLR,Novelis network,Novelis,Manufacturing scrap,reverse,Return rail in case,historical_case,S30,E043,Not proof all end-of-life vehicles recovered
+L31,Novelis network,Ball,Novelis,Can sheet,customer_delivery,Not verified,contract_announced,S31,E044,New-plant allocation subject to ramp-up
+L32,Ball manufacturing,Novelis network,Novelis,Can-making scrap,reverse,Not verified,contract_announced,S31,E044,Manufacturing scrap differs from post-consumer cans
+L33,Novelis network,Ardagh Metal Packaging,Novelis,Can sheet,customer_delivery,Not verified,contract_announced,S32,E045,Contract price and lane volumes unavailable
+L34,F30,F31,Novelis,Sheet ingot,interplant,CSX rail,reported,S03,E039,New rail-spur movement
+L35,Alternative Novelis plants and third parties,Oswego-affected customers,Novelis,Qualified substitute material,disruption_response,Global rerouting,reported,S33,E048,Not permanent standard sourcing map

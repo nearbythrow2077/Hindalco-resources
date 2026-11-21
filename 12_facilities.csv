@@ -1,0 +1,36 @@
+facility_id,name,business,location,country,supply_chain_role,status_as_reported,capacity_value,capacity_unit,capacity_basis,source_ids,evidence_ids,caution
+F01,Baphlimali,Aluminium India,Rayagada Odisha,India,Captive bauxite mine,operating,8.5,million_t_per_year,bauxite capacity,S09;S40,E005;E053,Not alumina output; narrative elsewhere gives older mine figure
+F02,Lohardaga cluster,Aluminium India,Jharkhand,India,Bauxite mine cluster,operating,,,,S10,E006,Do not treat cluster as a single pit
+F03,Utkal Alumina,Aluminium India,Doraguda Rayagada Odisha,India,Alumina refinery,operating,,,,S09;S40,E005,2.27 legacy project versus 2.67 annual contribution; current nameplate not resolved
+F04,Muri,Aluminium India,Ranchi Jharkhand,India,Standard and specialty alumina refinery,operating,450000,t_per_year,refining rated capacity,S11;S41,E017;E054,Hydrate/alumina product mix matters
+F05,Belagavi,Aluminium India,Belagavi Karnataka,India,Specialty alumina/hydrates,operating,,,,S06;S07,E003,Hydrate capacity not directly comparable to calcined alumina
+F06,Renukoot refinery,Aluminium India,Sonbhadra Uttar Pradesh,India,Alumina refinery,operating,700000,t_per_year,company web refinery capacity,S12,E011,2025 technical source gives 720000; unresolved definition/date
+F07,Renukoot smelter,Aluminium India,Sonbhadra Uttar Pradesh,India,Primary aluminium smelting,operating,410000,t_per_year,smelting capacity,S12;S50,E011,Separate from refinery and fabrication capacities
+F08,Renusagar,Aluminium India,Sonbhadra Uttar Pradesh,India,Captive electricity supply,operating,840,MW,web CPP capacity,S12,E011,Conference source says approximately 830 MW supplied; different measure possible
+F09,Mahan,Aluminium India,Bargawan Madhya Pradesh,India,Smelter; carbon; casting; captive power,operating,371000,t_per_year,web smelting capacity,S13,E007;E012,Historical 359000 is not used as current
+F10,Aditya Aluminium,Aluminium India,Lapanga Sambalpur Odisha,India,Smelting; casting; captive power,operating,360000,t_per_year,narrative rated smelting capacity,S14;S42,E004;E055,Malformed web header excluded; future expansion separate
+F11,Hirakud smelter,Aluminium India,Sambalpur Odisha,India,Smelting and downstream feedstock,operating,216000,t_per_year,current described smelting capacity,S15;S42,E008;E009,10000 t historical initial capacity not current
+F12,Hirakud FRP,Aluminium India,Sambalpur Odisha,India,Rolling,operating,,,,S06;S08;S15,E009,Separate facility/process from smelter
+F13,Belur,Aluminium India,Howrah West Bengal,India,Rolling,operating,,,,S06;S08,E009,No current verified capacity adopted
+F14,Taloja,Aluminium India,Raigad Maharashtra,India,Rolling and coated fin stock,operating; new line ramping,,,,S06;S05,E009,Line capacity differs from total facility throughput
+F15,Mouda,Aluminium India,Nagpur Maharashtra,India,Rolling; foil and packaging,operating,,,,S06;S08,E009,Capacity cards do not establish current combined output
+F16,Alupuram,Aluminium India,Ernakulam Kerala,India,Extrusions,operating,,,,S06;S08,E014,Primary-product website category does not imply active smelter
+F17,Kuppam,Aluminium India,Chittoor Andhra Pradesh,India,Extrusions and fabrication,operating,,,,S06;S23,E014,Acquired Hydro/SAPA facility
+F18,Silvassa,Aluminium India,Dadra and Nagar Haveli,India,Extrusions; separately listed foil activities,operating,,,,S06;S08,E014,Do not collapse separate process units into one capacity
+F19,Chakan,Aluminium India,Pune Maharashtra,India,EV battery enclosure fabrication,operating,80000,units_per_year,capacity disclosed April 2025,S27,E015,160000 planned then; current achieved capacity not verified
+F20,Aditya FRP and foil,Aluminium India,Sambalpur Odisha,India,FRP feedstock and battery foil,commissioned; ramp-up,170000,t_per_year,FRP addition,S37,E016,Not foil-only capacity
+F21,Dahej complex,Copper India,Bharuch Gujarat,India,Smelting; refining; rods; by-products,operating,,,,S17;S19,E019,500000 smelting vs 420000 FY26 cathode basis retained in conflicts
+F22,DHIL captive jetty,Copper India,Dahej Gujarat,India,Import/export gateway,operating,,,,S17,E019,Berth and handling capacities not verified
+F23,Asoj,Copper India,Vadodara Gujarat,India,Continuous cast rods and wire,operating,225000,t_per_year,CCR acquisition capacity,S07;S18,E020,Downstream; not an additional copper smelter
+F24,Waghodia IGT,Copper India,Vadodara Gujarat,India,Copper tube production,operating; ramp-up,,,,S08;S38,E026,Exact achieved capacity not verified
+F25,Pakhajan recycling,Copper India,Bharuch Gujarat,India,Copper scrap/e-waste processing,project; latest dated start-up unconfirmed,50000,t_per_year,initial project capacity,S04;S38;S08,E027,Could be feed input; not automatically refined copper output
+F26,Bhiwadi alloy rod site,Copper India,Chopanki Rajasthan,India,Alloy rod location,closed from 2024-04-30,,,,S08,,Do not show as operating from historical plant lists
+F27,Oswego,Novelis,New York,USA,Rolling; casting; recycling,hot mill restarted June 2026,,,,S33;S34,E047;E048,Restart and restored customer service are distinct
+F28,Bay Minette,Novelis,Alabama,USA,Integrated rolling and recycling,commissioning,600000,t_per_year,planned normal rolled capacity,S31;S34;S35,E050,Commercial shipments targeted Apr-Jun 2027
+F29,Kingston,Novelis,Ontario,Canada,Rolling and finishing,temporary reduction announced September 2026,,,,S29;S34,E049,Minimum six-month action; not permanent closure
+F30,Greensboro,Novelis,Georgia,USA,Recycling and sheet-ingot casting,operating,,,,S29;S03,E039,Selected site; not complete global inventory
+F31,Logan/Russellville,Novelis,Kentucky,USA,Rolling; casting; recycling,operating; JV interests,,,,S29;S03,E039,Do not assume wholly owned site
+F32,Ulsan,Novelis,Ulsan,South Korea,Rolling and recycling,operating; 50:50 Kobe JV,,,,S29,E041,Capacity attribution depends on consolidation basis
+F33,Yeongju,Novelis,Yeongju,South Korea,Rolling and recycling,operating,,,,S29,E041,Selected site
+F34,Pindamonhangaba,Novelis,Sao Paulo state,Brazil,Rolling and recycling,operating,,,,S29,E041,Selected site
+F35,Latchford,Novelis,Warrington,United Kingdom,Recycling,operating; expansion described,,,,S29;S04,E041,Expansion completion not verified

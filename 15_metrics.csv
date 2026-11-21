@@ -1,0 +1,50 @@
+metric_id,business_scope,metric,value,unit,period,basis,source_ids,locator,caution
+M01,India aluminium,Upstream primary capacity,1.34,million_t_per_year,FY26 summary,reported_capacity,S02,Business at a glance,Not output or shipments
+M02,India aluminium,Downstream VAP capacity,0.60,million_t_per_year,FY26 summary,reported_capacity,S02,Business at a glance,Do not add to upstream as unique tonnes
+M03,Novelis,FRP capacity,4.3,million_t_per_year,FY26 summary,reported_capacity,S02,Business at a glance,Not necessarily current effective capacity
+M04,India copper,Cathode capacity,0.42,million_t_per_year,FY26,reported_capacity,S04,PDF spread 2,Different from generic 0.5 million smelter claim
+M05,India copper,CCR capacity,0.54,million_t_per_year,FY26,reported_capacity,S04,PDF spread 2,Cathodes may be intermediate feed; not additive
+M06,India specialty alumina,Specialty capacity,0.56,million_t_per_year,FY26 summary,reported_capacity,S02,Business at a glance,Different products/basis from smelter alumina
+M07,India aluminium,Alumina production,3.78,million_t,FY26,production,S02,Manufactured capital,Not capacity
+M08,Novelis,Recycled content,61,percent,FY26 summary,reported_share,S02,Natural capital,Not group aluminium recycled content
+M09,Group,Revenue,274944,INR_crore,FY26,consolidated,S05,Consolidated table,Metal price changes affect revenue
+M10,Group,EBITDA,38097,INR_crore,FY26,consolidated_reported,S05,Consolidated table,Not supply-chain surplus
+M11,Group,PAT,13391,INR_crore,FY26,after_exceptional_items,S05,Consolidated highlights,Different from pre-exceptional PAT
+M12,India aluminium upstream,Shipments,1350,kt,FY26,shipments,S05,Aluminium table,Not production; not utilisation numerator without reconciliation
+M13,India aluminium upstream,Revenue,41447,INR_crore,FY26,segment,S05,Aluminium table,Segment intercompany basis requires care
+M14,India aluminium upstream,EBITDA,18884,INR_crore,FY26,segment,S05,Aluminium table,Not directly comparable with Novelis USD metrics
+M15,India aluminium downstream,EBITDA,978,INR_crore,FY26,segment,S05,FY26 highlights,No full-year downstream sales figure adopted here
+M16,India aluminium downstream,Sales,124,kt,Q4 FY26,sales,S05,Downstream bullets,Quarter only
+M17,India copper,Metal sales,491,kt,FY25,sales,S05,Copper table,Includes CCR subset
+M18,India copper,Metal sales,487,kt,FY26,sales,S05,Copper table,Not cathode production
+M19,India copper,CCR sales,394,kt,FY25,subset_of_metal_sales,S05,Copper table,Do not add to total
+M20,India copper,CCR sales,373,kt,FY26,subset_of_metal_sales,S05,Copper table,Do not add to total
+M21,India copper,Revenue,54703,INR_crore,FY25,segment,S05,Copper table,Nominal revenue
+M22,India copper,Revenue,69838,INR_crore,FY26,segment,S05,Copper table,Higher revenue does not imply higher tonnes
+M23,India copper,EBITDA,3025,INR_crore,FY25,segment,S05,Copper table,Same table as FY26
+M24,India copper,EBITDA,2809,INR_crore,FY26,segment,S05,Copper table,Full-year differs from record Q4 claim
+M25,Novelis,Rolled-product shipments,3557,kt,FY26,rolled_shipments,S05,Novelis table,10-K total shipments 3731 include other shipments; do not substitute
+M26,Novelis,Net sales,18434,USD_million,FY26,US_GAAP,S05;S29,Novelis table; 10-K,Same entity and year
+M27,Novelis,Adjusted EBITDA,1645,USD_million,FY26,non_GAAP,S05,Novelis table,462 per tonne reported; 500 excluding specified impacts is different
+M28,Novelis,Operating facilities,29,count,2026-03-31,includes_JV_operations,S29,Item 2,Selected facilities CSV is not full census
+M29,Novelis,Facilities with recycling,15,count,2026-03-31,subset_of_facilities,S29,Item 2,Do not add to 29
+M30,Novelis,Ball share of net sales,18,percent,FY26,value_share,S29,Note 21,Not all beverage customers combined
+M31,Novelis,Rio Tinto share of metal purchases,6,percent,FY26,value_share,S29,Note 21,Not Hindalco India procurement share
+M32,Novelis,Rolled shipments,919,kt,Q2 FY27,quarterly,S35,Highlights,Jul-Sep 2026
+M33,Novelis,Adjusted EBITDA,508,USD_million,Q2 FY27,non_GAAP,S35,Highlights,Includes 39 million business interruption recoveries
+M34,Novelis,Adjusted EBITDA per shipped tonne,553,USD_per_t,Q2 FY27,non_GAAP,S35,Highlights,Different denominator and period from annual values
+M35,Novelis,Operating cash flow,-418,USD_million,H1 FY27,cash_flow,S35,Financial discussion,Outflow; not a negative sales metric
+M36,Novelis,Net leverage,4.7,ratio,2026-09-30,adjusted_net_debt_to_TTM_adjusted_EBITDA,S35,Financial discussion,Not group Hindalco net leverage
+M37,India aluminium,Aditya RTC project operationalised,65,MW,Q1 FY27 release,operational_tranche,S39,Sustainability,Different from gross renewable generation capacity
+M38,India aluminium,Chakan disclosed capacity,80000,enclosures_per_year,2025-04-25,capacity_at_announcement,S27,Facility description,Current capacity not reverified
+M39,India aluminium,Chakan expansion goal,160000,enclosures_per_year,2025-04-25,planned,S27,Facility description,Not achieved capacity
+M40,India aluminium,Aditya FRP addition,170000,t_per_year,2026-01-27,commissioned_addition,S37,Project description,Do not count as foil-only output
+M41,India copper,Recycling initial project,50000,t_per_year,2026-07-23,planned,S38,Copper paragraph,Input/output basis not fully specified
+M42,India copper,Recycling scale-up potential,200000,t_per_year,2026-07-23,potential,S38,Copper paragraph,Not committed current production
+M43,India copper,New smelter addition,300000,t_per_year,target FY29,planned_cathode_smelter,S38;S04,Copper expansion,Separate from operating cathode capacity
+M44,Novelis,Bay Minette design output,600000,t_per_year,normal_operation_future,planned_rolled_capacity,S34,Defined terms; start-up costs,Commissioning not full throughput
+M45,India aluminium,Renukoot specific electricity consumption,13800,kWh_per_t_Al,2025 technical abstract,site_reported,S50,p.113,Boundary and operating conditions not supplied
+M46,India copper,FY26 CCR share of metal sales,76.5914,percent,FY26,calculated_373_div_487_times_100,S05,Inputs M18 M20,Sales mix not metal yield
+M47,India copper,FY26 metal sales growth,-0.8147,percent,FY26_vs_FY25,calculated_487_div_491_minus_1,S05,Inputs M17 M18,Rounded
+M48,India copper,FY26 revenue growth,27.6676,percent,FY26_vs_FY25,calculated_69838_div_54703_minus_1,S05,Inputs M21 M22,Nominal value change not volume change
+M49,India copper,FY26 EBITDA growth,-7.1405,percent,FY26_vs_FY25,calculated_2809_div_3025_minus_1,S05,Inputs M23 M24,Shows margin-volume-price distinction

@@ -1,0 +1,24 @@
+record_id,country,relationship_type,period,company_country_red_flag,source_ids,evidence_ids,qualification
+C01,Australia,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C02,Brazil,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C03,Botswana,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C04,Canada,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C05,Chile,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,Separate from unverified future HCL resale proposal
+C06,Democratic Republic of the Congo,raw_material_sourcing,2024-08 to 2025-09,named_red_flag,S19,E021;E030,Company screening classification; not evidence of wrongdoing by every supplier
+C07,India,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E022,Historical HCL link does not establish present national volume
+C08,Indonesia,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C09,Papua New Guinea,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C10,Peru,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E058,Sourcing country is not proof of owned mines
+C11,Tanzania,raw_material_sourcing,2024-08 to 2025-09,named_red_flag,S19,E021;E030,Company screening classification; not evidence of wrongdoing by every supplier
+C12,Uzbekistan,raw_material_sourcing,2024-08 to 2025-09,not_named_as_one_of_three,S19,E021;E030,No material-specific tonnes or supplier identity inferred
+C13,Zambia,raw_material_sourcing,2024-08 to 2025-09,named_red_flag,S19,E021;E030,Company screening classification; not evidence of wrongdoing by every supplier
+C14,Bahamas,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C15,China,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C16,Comoros,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C17,Guinea,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C18,Liberia,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C19,Malta,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C20,Marshall Islands,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C21,Panama,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C22,Sierra Leone,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call
+C23,Thailand,transport_or_transit_jurisdiction,2024-08 to 2025-09,not_assessed_in_this_table,S19,E021,Not necessarily a mine origin or physical port call

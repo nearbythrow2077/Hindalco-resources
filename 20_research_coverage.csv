@@ -1,0 +1,13 @@
+requirement,research_files,evidence_ids,coverage,remaining_work
+Company introduction,00_README.md;02_aluminium_notes.md;03_copper_notes.md;04_novelis_notes.md,E001;E002;E019;E041,Group boundaries and business roles identified,Choose final project scope and presentation emphasis
+Supply-chain configuration,12_facilities.csv;13_material_flows.csv;19_copper_sourcing.csv,E002;E005;E006;E007;E008;E009;E019;E021;E041,Reported nodes and links with status labels,Verify route tonnes; supplier identities; complete facility census
+Product configuration,14_products_and_strategic_fit.csv;02_aluminium_notes.md;03_copper_notes.md,E013;E014;E015;E017;E024;E025,Families; customer needs; processing stages,Get grade-level demand; BOM; service and qualification requirements
+Strategic fit,01_chopra_framework.md;14_products_and_strategic_fit.csv,E063,Efficiency-responsiveness interpretation by product,Measure implied demand and supply uncertainty
+Logistical and cross-functional drivers,05_drivers_and_coordination.md;15_metrics.csv,E034;E035;E036;E037;E046;E051,Six-driver mapping; public facts and proposed metrics,Get inventory; cost; service and planning datasets
+How coordination is achieved,05_drivers_and_coordination.md,E015;E029;E034;E035;E036;E037;E043;E044;E056,Documented internal; supplier; customer and funds-flow mechanisms,Confirm cadence; ownership; shared KPIs and outcomes
+Obstacles to coordination,05_drivers_and_coordination.md;08_gaps_and_conflicts.md,E032;E046;E047;E049;E064,Observed risks separated from five-category hypotheses,Test incentives; ordering behaviour and bullwhip with data
+Recent issues,06_recent_issues.md;16_recent_issues.csv,E047;E049;E050;E051;E052;E054;E057;E059,Dated events; responses; implications,Refresh primary India Q2 FY27 filing and late-2026 project status
+SWOT,07_swot_hypotheses.md;17_swot.csv,E063;E064;E065,Evidence-linked hypotheses,Prioritise materiality and validate proposed metrics
+Conclusions,07_swot_hypotheses.md,E063;E064;E065,Candidate synthesis only,Write conclusions after group/instructor discussion
+References,09_annotated_bibliography.md;10_sources.csv;11_evidence.csv,E001;E066,Source URLs; access dates; locators; caveats,Confirm textbook edition and textbook page citations
+Division of work and interactions,00_README.md;08_gaps_and_conflicts.md,,Research organised for later allocation,Group to allocate ownership; record interactions and participation
