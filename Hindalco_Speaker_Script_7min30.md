@@ -8,7 +8,7 @@ SCM G511 · Fundamental Concepts of Supply Chain
 
 *Thanvir Diouf Shafeeq · 0:00–0:15*
 
-Good morning, Dr. Routroy and everyone. We’re Thanvir, Lavanya and Dhruv. Our question is what it takes for Hindalco to deliver the right grade of metal by the promised date.
+hello everone. Our question is what it takes for Hindalco to deliver the right grade of metal by the promised date. i'm thanvir and today we'll discuss Hindalco's Supply Chain.
 
 ## Slide 02 · Strategic fit across three metals businesses
 
